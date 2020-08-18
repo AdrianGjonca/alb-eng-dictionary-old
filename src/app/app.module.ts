@@ -8,12 +8,15 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { WordSearchBarComponent } from './word-search-bar/word-search-bar.component';
 import {MatInputModule} from '@angular/material/input';
-
+import { ResultsSegmentComponent } from './results-segment/results-segment.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     WordSearchBarComponent,
+    ResultsSegmentComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,7 +24,8 @@ import {MatInputModule} from '@angular/material/input';
     BrowserAnimationsModule,
     MatToolbarModule, 
     MatInputModule,
-    
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

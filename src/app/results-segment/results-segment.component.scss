@@ -1,0 +1,29 @@
+.Main {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #4CAF50;
+    background-color: lightblue;
+}  
+.SingleCard {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 800px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    width: 100%;
+}
+.grid-item {
+    //border: 1px solid #4CAF50;
+    padding: 0px;
+    font-size: 15px;
+    text-align: left;
+}

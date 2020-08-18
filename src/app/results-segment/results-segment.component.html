@@ -1,0 +1,23 @@
+<div class="Main">
+<h3>We found the following translations for your query:</h3>
+<mat-card class="SingleCard" *ngFor="let trans of alb_to_eng">
+    <div class="grid-container">
+        <div class="grid-item"><b>Albanian</b></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"><b>English</b></div>
+        <div class="grid-item">{{trans[0]}}</div>
+        <div class="grid-item"></div>
+        <div class="grid-item">{{trans[1]}}</div>
+    </div>
+</mat-card>
+<mat-card class="SingleCard" *ngFor="let trans of eng_to_alb">
+    <div class="grid-container">
+        <div class="grid-item"><b>English</b></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"><b>Albanian</b></div>
+        <div class="grid-item">{{trans[0]}}</div>
+        <div class="grid-item"></div>
+        <div class="grid-item">{{trans[1]}}</div>
+    </div>
+</mat-card>
+</div>
