@@ -1,5 +1,8 @@
 
 <mat-form-field class="Text">
     <mat-label>Please type in the word here.</mat-label>
-    <input matInput placeholder="Ex. Njereze" value="">
-</mat-form-field>
+    <input matInput placeholder="Ex. Njereze" value=""
+    type="text"
+    (change)="onChangeEvent($event)"
+    >
+</mat-form-field> 
