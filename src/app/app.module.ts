@@ -12,8 +12,19 @@ import { ResultsSegmentComponent } from './results-segment/results-segment.compo
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TranslationpageComponent } from './translationpage/translationpage.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { DictionaryComponent } from './dictionary/dictionary.component';
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, WordSearchBarComponent, ResultsSegmentComponent],
+  declarations: [
+    AppComponent,
+    ToolbarComponent,
+    WordSearchBarComponent,
+    ResultsSegmentComponent,
+    TranslationpageComponent,
+    HomepageComponent,
+    DictionaryComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
